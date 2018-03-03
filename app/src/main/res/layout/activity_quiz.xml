@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.android.androidquiz.QuizActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RadioGroup
+                android:id="@+id/quizQuestionOne"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Question 1."
+                    android:textSize="25sp"
+                    android:layout_margin="5dp"
+                    android:textColor="@android:color/holo_green_dark" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Which is the correct line of code to get the ID of the EditText you intend to use?"
+                    android:textSize="18sp"
+                    android:layout_margin="5dp"
+                    android:textColor="@android:color/black" />
+
+                <RadioButton
+                    android:id="@+id/quizOneA"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="EditText = (EditText) findViewById(R.id.nameTextField);"
+                    android:textAppearance="?android:textAppearanceMedium" />
+
+                <RadioButton
+                    android:id="@+id/quizOneB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="EditText TextHandler = (EditText) findViewById(R.id.nameTextField);"
+                    android:textAppearance="?android:textAppearanceMedium" />
+            </RadioGroup>
+
+            <RadioGroup
+                android:id="@+id/quizQuestionTwo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Question 2."
+                    android:textSize="25sp"
+                    android:layout_margin="5dp"
+                    android:textColor="@android:color/holo_green_dark" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Which Android Studio file is most of the app coding done in?"
+                    android:textSize="18sp"
+                    android:layout_margin="5dp"
+                    android:textColor="@android:color/black" />
+
+                <RadioButton
+                    android:id="@+id/quizTwoA"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Activity_main_xml;"
+                    android:textAppearance="?android:textAppearanceMedium" />
+
+                <RadioButton
+                    android:id="@+id/quizTwoB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="MainActivity.java;"
+                    android:textAppearance="?android:textAppearanceMedium" />
+            </RadioGroup>
+
+            <RadioGroup
+                android:id="@+id/quizQuestionThree"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Question 3."
+                    android:textSize="25sp"
+                    android:layout_margin="5dp"
+                    android:textColor="@android:color/holo_green_dark" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Which is correct for using any image with the name 'happy'?"
+                    android:textSize="18sp"
+                    android:layout_margin="5dp"
+                    android:textColor="@android:color/black" />
+
+                <RadioButton
+                    android:id="@+id/quizThreeA"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Android:src='@drawable/happy'"
+                    android:textAppearance="?android:textAppearanceMedium" />
+
+                <RadioButton
+                    android:id="@+id/quizThreeB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Android:'@drawable/happy' "
+                    android:textAppearance="?android:textAppearanceMedium" />
+            </RadioGroup>
+
+            <RadioGroup
+                android:id="@+id/quizQuestionFour"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Question 4."
+                    android:textSize="25sp"
+                    android:layout_margin="5dp"
+                    android:textColor="@android:color/holo_green_dark" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Which component property should be changed to a name that is specific of the components use?"
+                    android:textSize="18sp"
+                    android:layout_margin="5dp"
+                    android:textColor="@android:color/black" />
+
+                <RadioButton
+                    android:id="@+id/quizFourA"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Text"
+                    android:textAppearance="?android:textAppearanceMedium" />
+
+                <RadioButton
+                    android:id="@+id/quizFourB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ID"
+                    android:textAppearance="?android:textAppearanceMedium" />
+            </RadioGroup>
+
+            <RadioGroup
+                android:id="@+id/quizQuestionFive"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Question 5."
+                    android:textSize="25sp"
+                    android:layout_margin="5dp"
+                    android:textColor="@android:color/holo_green_dark" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Which file do you alter the image displayed by the ImageView in?"
+                    android:textSize="18sp"
+                    android:layout_margin="5dp"
+                    android:textColor="@android:color/black" />
+
+                <RadioButton
+                    android:id="@+id/quizFiveA"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Drawable"
+                    android:textAppearance="?android:textAppearanceMedium" />
+
+                <RadioButton
+                    android:id="@+id/quizFiveB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Activity_main_xml"
+                    android:textAppearance="?android:textAppearanceMedium" />
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/button_done"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Done"
+                android:layout_gravity="center" />
+
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>
